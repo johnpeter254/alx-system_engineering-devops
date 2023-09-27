@@ -1,0 +1,2 @@
+#!/bin/bash
+find "$(pwd)" .. /boot -maxdepth 1 -exec ls -lA {} \;
