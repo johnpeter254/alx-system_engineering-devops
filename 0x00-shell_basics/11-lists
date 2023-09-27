@@ -1,2 +1,2 @@
 #!/bin/bash
-find "$(pwd)" .. /boot -maxdepth 1 -exec ls -lA {} \;
+(ls -lA && (cd .. && ls -lA) && (cd /boot && ls -lA)) | cat
